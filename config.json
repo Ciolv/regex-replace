@@ -1,0 +1,10 @@
+{
+    "directory_path": "/path/to/your/directory",
+    "file_extension": ".md",
+    "regex_patterns": [
+        {
+            "search": "((?:.|\\r|\\n)+?)(---(?:[\\r\\n]+\\w+:.+)+[\\r\\n]+---)",
+            "replace": "\\2\r\n\\1"
+        }
+    ]
+}
